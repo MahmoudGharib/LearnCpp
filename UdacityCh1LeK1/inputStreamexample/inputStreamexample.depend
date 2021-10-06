@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1597160440 source:c:\mgarbeit\projects\cplsplsprojects\udacitych1lek1\inputstreamexample\main.cpp
+	<iostream>
+	<sstream>
+	<string>
+

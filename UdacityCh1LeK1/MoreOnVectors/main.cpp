@@ -1,0 +1,32 @@
+/** vectors from udacity
+**/
+
+#include <vector>
+#include <iostream>
+
+
+using std::vector;
+using std::cout;
+
+
+
+int main()
+{
+    // Initial Vector
+    vector v {1, 2, 3};
+
+    // Print the contents of the vector
+    for (unsigned int i=0; i < v.size(); i++) {
+      cout << v[i] << "\n";
+    }
+
+    // Push 4 to the back of the vector
+    v.push_back(4);
+    v.push_back (6);
+    cout << "\n";
+
+    // Print the contents again
+    for (unsigned int i=0; i < v.size(); i++) {
+      cout << v[i] << "\n";
+    }
+}
